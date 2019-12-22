@@ -10,7 +10,7 @@
 
 ### SOLID
 - **Single Responsibility Principles (SRP)** - One class should have one and only one responsibility
-Open Close Principle (OCP) - Software components should be open for extension (new functionality) but closed for modification 
+- **Open Close Principle (OCP)** - Software components should be open for extension (new functionality) but closed for modification 
 - **Liskov’s Substitution Principle (LSP)** - Derived types must be completely substitutable for their base types. It means that derived class or subclass must enhance functionality, but not reduce them.
 - **Interface Segregation Principle (ISP)** - Clients should not be forced to implement unnecessary methods which they will not use. (This happens mostly when one interface contains more than one functionality, and the client only needs one functionality and no other.)
 - **Dependency Inversion Principle (DIP)** - Depend on abstractions, not on concretions. Any object which is injected is easy to test with a mock
